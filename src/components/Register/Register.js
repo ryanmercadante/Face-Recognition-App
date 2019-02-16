@@ -65,7 +65,7 @@ class Register extends React.Component {
                   Email
                 </label>
                 <input
-                  onChance={this.onEmailChange}
+                  onChange={this.onEmailChange}
                   className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
                   type="email"
                   name="email-address"
